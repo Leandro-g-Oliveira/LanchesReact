@@ -1,0 +1,48 @@
+.none{
+  pointer-events: none;
+}
+.lancheUniq{
+  width:1100px;
+  background-color: #DC853D;
+  border-radius: 4px;
+  margin-top:10px;
+  margin-left: 45px;
+  margin-right:45px;
+  margin-bottom: 5px;
+  padding: 3px;
+  box-shadow: 0 0 5px #DC853D;
+}
+.lancheUniq h5,p{
+  color:#eee;
+  
+}
+.link{
+  margin-top: 50px;
+}
+.lancheNome{
+  font-size: 40px;
+  margin-left:40px;
+}
+.lanchePrice{
+  font-size: 30px;
+  margin-left: 45px;
+}
+.lancheDesc{
+  font-size: 20px;
+  margin-left: 15px;
+}
+@media (max-width:450px) {
+  .lancheUniq {
+    width:420px;
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+  .lancheNome {
+    font-size: 20px;
+    margin-left:20px;
+  }
+  .lancheDesc{
+    font-size: 15px;
+    margin-left: 10px;
+  }
+}

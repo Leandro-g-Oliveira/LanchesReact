@@ -1,0 +1,77 @@
+.section{
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.title{
+  font-size: 6rem;
+  color: #eee;
+}
+.btnDivs{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 3rem;
+}
+.btnDivs button{
+  background-color: transparent;
+  width:6rem;
+  height: 3rem;
+  border-radius: 10px;
+  font-size: 2rem;
+  border:2px solid #DC853D;
+  color:#DC853D;
+  outline: none;
+  font-weight: bold;
+  transition: all .3s ease-out;
+}
+.btnDivs button:hover{
+  width:7.5rem;
+  height:4.5rem;
+  background-color: #DC853D99;
+  box-shadow: 0 0 38px #f3b078;
+  letter-spacing: 5px;
+  color:#eee;
+}
+.btnDivs a{
+  font-size: 2rem;
+  color:#000;
+  outline:none;
+  padding: 0;
+  color: #DC853D;
+  font-weight:bold ;
+  transition:all .2s;
+}
+.btnDivs a:hover{
+  font-size: 2.1rem;
+  font-weight: bold;
+  box-shadow: 0 0 38px #5959597e;
+}
+@media (max-width:450px) {
+  .title{
+    font-size:3rem;
+  }
+  .btnDivs{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3rem;
+  }
+  .btnDivs button{
+    width:3.5rem;
+    height: 2rem;
+    font-size: 1rem;
+  }
+  .btnDivs button:hover{
+    width: 4rem;
+    height: 2.5rem;
+    letter-spacing: 2px;
+  }
+  .btnDivs a{
+    margin-top: 10px;
+    font-size: 1rem;
+  }
+  .btnDivs a:hover{
+    font-size: 1.1rem;
+  }
+}

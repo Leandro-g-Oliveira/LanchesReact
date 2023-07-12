@@ -1,0 +1,32 @@
+.link{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin:50px;
+  font-size: 50px;
+  background-color: #DC853D;
+  border-radius: 15px;
+  padding: 1rem;
+  width:6rem;
+  height: 6rem;
+  transition: all .2s;
+}
+.link:hover{
+  transform: scale(.9);
+  box-shadow: 0 0 10px #DC853D;
+}
+.linkLanche{
+  transition:all .2s ease;
+  outline:none;
+}
+.linkLanche:hover{
+  transform: scale(0.95);
+}
+@media (max-width:450px) {
+  .link{
+    margin: 25px;
+    font-size: 25px;
+    width:3rem;
+    height:3rem;
+  }
+}

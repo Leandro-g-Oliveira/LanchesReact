@@ -1,0 +1,124 @@
+.header{
+  background-color: #eda162;
+  width: 100%;
+}
+.nameArea{
+  display:flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.voltar,.btn{
+  display: flex;
+  width:130px;
+  height:90px;
+  font-size: 30px;
+  padding:5px;
+  background-color: #924936;
+  color:#eee;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  border: none;
+  border-radius: 10px;
+  outline: none;
+  transition: all .3s ease;
+  margin: 10px;
+}
+.btn{
+  background-color: #DC853D;
+}
+.voltar:hover,.btn:hover{
+  background-color: #80331e;
+  transform: scale(0.9);
+}
+.nome {
+  font-size: 50px;
+  color:#eee;
+}
+.sectionDesc{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.sectionDesc h1{
+  color:#eee;
+}
+.desc{
+  font-size: 30px;
+  padding: 10px;
+  font-weight: bold;
+  max-width: 900px;
+}
+.infoQtd{
+  display:flex;
+  flex-wrap: wrap;
+}
+.qtdArea{
+  display: flex;
+  background-color: transparent;
+  width:120px;
+  height:70px;
+  margin-top: 10px;
+  border-radius: 10px;
+  align-items: center;
+  margin-left: 30px;
+  justify-content: space-around;
+}
+.qtdArea button{
+  width:50px;
+  height:100%;
+  font-size: 40px;
+  font-weight: bold;
+  background-color: #444444;
+  color: #eee;
+  border: none;
+  border-radius: 10px;
+  transition: .1s all ease;
+}
+.qtdArea button:hover{
+  transform:scale(0.9);
+}
+.qtdArea p{
+  font-size: 20px;
+  font-weight: bold;
+  padding: 10px;
+}
+.valor{
+  font-size: 5rem;
+  margin-top: 30px;
+}
+
+@media (max-width:450px) {
+  .voltar,.btn{
+    display: flex;
+    width:80px;
+    height:55px;
+    font-size: 15px;
+    padding:3px;
+  }
+  .nome{
+    font-size: 25px;
+  }
+  .desc{
+    font-size: 15px;
+    padding: 5px;
+    font-weight: bold;
+    max-width: 900px;
+  }
+  .infoQtd{
+    display: flex;
+    flex-di6rection: column;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .qtdArea{
+    width:100px;
+    height:50px;
+    margin-top: 10px;
+    border-radius: 10px;
+  }
+  .valor{
+    font-size:2rem;
+  }
+  
+}
