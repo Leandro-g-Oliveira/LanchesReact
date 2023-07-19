@@ -1,0 +1,6 @@
+{
+  "scripts":{
+    "backend":"nodemon backend/index.js",
+    "frontend":"node lancheReact/src/main.jsx"
+  }
+}
