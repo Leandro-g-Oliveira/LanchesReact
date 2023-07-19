@@ -15,7 +15,7 @@
   font-size: 2rem;
   border:none;
   color:#eee;
-  border-bottom: 1px solid #DC4981;
+  border-bottom: 1px solid var(--tirColor);
   outline: none;
   transition: all .2s ease-in;
 }
@@ -29,7 +29,7 @@
 }
 .inputField input:valid{
   background-color: transparent;
-  border-bottom: 3px solid #DC4981;
+  border-bottom: 3px solid var(--tirColor);
 }
 .inputField input:focus+label,
 .inputField input:valid+label{
@@ -50,7 +50,7 @@
     height: 3rem;
   }
   .inputField input:valid{
-    border-bottom: 2px solid #DC4981;
+    border-bottom: 2px solid var(--tirColor);
   }
   .inputField label {
     font-size: 1rem;

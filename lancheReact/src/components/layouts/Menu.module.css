@@ -4,7 +4,7 @@
   height:200px;
   align-items: center;
   justify-content: space-around;
-  background-color: #DC853D;
+  background-color: var(--secColor);
 }
 
 .links{
@@ -53,7 +53,7 @@
     height: 0px;
     padding:5px;
     /*background-color: #DC853D99;*/
-    background-color: #92493699;
+    background-color: var(--firColor);
     z-index: 1000;
     visibility: hidden;
     overflow-y: hidden;

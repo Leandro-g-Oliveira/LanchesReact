@@ -5,7 +5,7 @@
   margin: 0 auto;
   flex-wrap: wrap;
   padding:10px;
-  background-color: #fdbcab;
+  background-color: var(--firColor);
   align-items: center;
 }
 .minHeight{

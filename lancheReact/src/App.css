@@ -4,6 +4,9 @@
   padding: 0;
   box-sizing: border-box;
   font-family: 'Roboto', sans-serif;
+  --firColor:#924936;
+  --secColor:#DC853D;
+  --tirColor:#DC4981;
 }
 ul{
   display:flex;

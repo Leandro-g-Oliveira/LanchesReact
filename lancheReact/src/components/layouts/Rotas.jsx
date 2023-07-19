@@ -10,6 +10,7 @@ function Rotas () {
       <Routes>
         <Route path="/" element={<Home />}/>
         <Route path="/client/login" element={<Login />}/>
+        <Route path="/admin/login" element={}/>
         <Route path="/client/product/:id" element={<Product />}/>
         <Route path="/cart/" element={<Cart />}/>
       </Routes>
